@@ -1,0 +1,104 @@
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.settings/
+.cproject
+.project
+.clangd
+STM32N6_AI_Glasses.launch
+
+# Source Insight
+zhengli.si4project/
+*.siproj
+*.siwork
+*.si4project/
+
+# ============================================
+# Build Output
+# ============================================
+out/
+config_default/
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# ============================================
+# Binary / Generated Data (large files)
+# ============================================
+tool/weights.bin
+tool/palm_disp.bin
+App/plam_search/Network/*.onnx
+
+# ============================================
+# OS / Misc
+# ============================================
+$null
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================================
+# Workbuddy
+# ============================================
+.workbuddy/
+
+# ============================================
+# Personal / Private
+# ============================================
+DEBUG_NOTES.md
+规划.md
+tool/palm.jpg
+
+# ============================================
+# Unused BSP modules (original SDK, not needed)
+# ============================================
+BSP/ADC/
+BSP/AP3216C/
+BSP/ATIM/
+BSP/BEEP/
+BSP/BTIM/
+BSP/DHT11/
+BSP/DS18B20/
+BSP/DTS/
+BSP/EEPROM/
+BSP/ES8388/
+BSP/EXTI/
+BSP/FDCAN/
+BSP/GTIM/
+BSP/IMX335/
+BSP/IWDG/
+BSP/JPEGCODEC/
+BSP/KEY/
+BSP/LCD/
+BSP/NRF24L01/
+BSP/OLED/
+BSP/PWMDAC/
+BSP/QMC6308/
+BSP/QMI8658A/
+BSP/REMOTE/
+BSP/RNG/
+BSP/RS485/
+BSP/RTC/
+BSP/SD_CARD/
+BSP/SD_NAND/
+BSP/SPDIFRX/
+BSP/TOUCH/
+BSP/TPAD/
+BSP/WS2812B/
+BSP/WS2812B_IO/
+BSP/WWDG/
+BSP/YT8512C/
